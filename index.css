@@ -1,0 +1,67 @@
+body {
+  background-image: url("./images/table.png");
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  overflow-y: hidden;
+  font-family: "Exo 2", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+button {
+  background: #fff100;
+  cursor: pointer;
+  border: none;
+}
+
+#draw {
+  font-size: 1.75em;
+  font-weight: 600;
+  padding: 10px;
+  width: 100%;
+}
+
+#new-deck {
+  height: 35px;
+  width: 160px;
+  font-size: 20px;
+  padding: 5px;
+  align-self: flex-start;
+}
+
+.card-outline {
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 175px;
+  width: 125px;
+}
+
+.card-outline:nth-of-type(1) {
+  margin-bottom: 50px;
+}
+
+img.card {
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  display: flex;
+  align-self: flex-start;
+}
+
+.top > p {
+  margin: auto 10px;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
